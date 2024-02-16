@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fb04d5c-011d-4ed7-9a4f-882d6df64dca">
+  <producedTypes>
+    <containerType typeId="b4a7f188-10f6-460b-838e-1a41fb246203" valueTypeId="12598802-7117-401e-963e-7bf9969668d3"/>
+  </producedTypes>
+  <name>ВКМ_ПериодДействияДоговора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Период действия договора</value>
+  </synonym>
+  <type>
+    <types>StandardPeriod</types>
+  </type>
+</mdclass:DefinedType>
