@@ -10,4 +10,6 @@
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
   <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Document.ВКМ_ВходящийHTTPЗапрос</content>
+  <content>Catalog.ВКМ_УчетныеЗаписиТелеграм</content>
 </mdclass:Subsystem>
