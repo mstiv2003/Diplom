@@ -217,6 +217,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.Специалист</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>СпециалистПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>СпециалистРасширеннаяПодсказка</name>
           <id>15</id>
@@ -267,6 +271,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.ДатаПроведенияРабот</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>ДатаПроведенияРаботПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ДатаПроведенияРаботРасширеннаяПодсказка</name>
           <id>18</id>
@@ -317,6 +325,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.ВремяНачалаРабот</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>ВремяНачалаРаботПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ВремяНачалаРаботРасширеннаяПодсказка</name>
           <id>93</id>
@@ -1517,6 +1529,59 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ИзмененныеДанные</name>
+    <title>
+      <key>ru</key>
+      <value>Измененные данные</value>
+    </title>
+    <id>11</id>
+    <valueType>
+      <types>ValueTable</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <columns>
+      <name>Имя</name>
+      <title>
+        <key>ru</key>
+        <value>Имя</value>
+      </title>
+      <id>12</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Значение</name>
+      <title>
+        <key>ru</key>
+        <value>Значение</value>
+      </title>
+      <id>13</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+  </attributes>
   <formCommands>
     <name>ПрисоеденитьФайл</name>
     <title>
@@ -1556,6 +1621,14 @@
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">
+    <handlers>
+      <event>BeforeWrite</event>
+      <name>ПередЗаписью</name>
+    </handlers>
+    <handlers>
+      <event>BeforeWriteAtServer</event>
+      <name>ПередЗаписьюНаСервере</name>
+    </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>
 </form:Form>

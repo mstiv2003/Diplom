@@ -10,7 +10,7 @@
   <name>ВКМ_ВходящийHTTPЗапрос</name>
   <synonym>
     <key>ru</key>
-    <value>ВКМ входящий HTTP-запрос</value>
+    <value>Входящий HTTP-запрос</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ВКМ_ВходящийHTTPЗапрос.StandardAttribute.Number</inputByString>

@@ -1145,6 +1145,7 @@
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
   <catalogs>Catalog.ВКМ_УчетныеЗаписиТелеграм</catalogs>
+  <catalogs>Catalog.ВКМ_УведомллениеТелеграмБотуДляОтправки</catalogs>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ОплатаОтПокупателя</documents>
   <documents>Document.ОплатаПоставщику</documents>
