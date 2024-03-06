@@ -13,4 +13,5 @@
   <content>Document.ВКМ_ВходящийHTTPЗапрос</content>
   <content>Catalog.ВКМ_УчетныеЗаписиТелеграм</content>
   <content>Catalog.ВКМ_УведомллениеТелеграмБотуДляОтправки</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
 </mdclass:Subsystem>

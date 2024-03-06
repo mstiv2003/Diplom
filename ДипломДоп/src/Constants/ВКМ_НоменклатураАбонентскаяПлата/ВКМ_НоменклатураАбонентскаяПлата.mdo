@@ -11,12 +11,7 @@
     <value>ВКМ номенклатура абонентская плата</value>
   </synonym>
   <type>
-    <types>Number</types>
-    <numberQualifiers>
-      <precision>10</precision>
-      <scale>2</scale>
-      <nonNegative>true</nonNegative>
-    </numberQualifiers>
+    <types>CatalogRef.Номенклатура</types>
   </type>
   <useStandardCommands>true</useStandardCommands>
   <minValue xsi:type="core:UndefinedValue"/>
