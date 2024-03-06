@@ -9871,7 +9871,7 @@
 		</right>
 	</object>
 	<object>
-		<name>HTTPService.BKM_Bot.URLTemplate.Ping.Method.GETPing</name>
+		<name>HTTPService.BKM_Bot.URLTemplate.ping.Method.GETPing</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>
@@ -12298,7 +12298,7 @@
 		</right>
 	</object>
 	<object>
-		<name>HTTPService.BKM_Bot.URLTemplate.Send.Method.PostSend</name>
+		<name>HTTPService.BKM_Bot.URLTemplate.send.Method.PostSend</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>

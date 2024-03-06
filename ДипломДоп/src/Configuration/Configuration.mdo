@@ -817,7 +817,6 @@
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
-  <commonModules>CommonModule.ВКМ_РаботаСТелеграмБотом</commonModules>
   <commonModules>CommonModule.ВКМ_ОбщегоНазначенияHTTP</commonModules>
   <commonModules>CommonModule.ВКМ_Телеграм</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
@@ -1048,6 +1047,8 @@
   <constants>Constant.ХранитьФайлыВТомахНаДиске</constants>
   <constants>Constant.ВКМ_ТокенТелеграмБота</constants>
   <constants>Constant.ВКМ_ИдентификаторГруппыТелеграм</constants>
+  <constants>Constant.ВКМ_НоменклатураАбонентскаяПлата</constants>
+  <constants>Constant.ВКМ_НоменклатураРаботыСпециалиста</constants>
   <commonForms>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</commonForms>
   <commonForms>CommonForm.ВводЗначенийСпискомСФлажками</commonForms>
   <commonForms>CommonForm.Вопрос</commonForms>

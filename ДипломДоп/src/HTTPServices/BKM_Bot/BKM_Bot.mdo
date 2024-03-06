@@ -9,10 +9,10 @@
   <reuseSessions>AutoUse</reuseSessions>
   <sessionMaxAge>20</sessionMaxAge>
   <urlTemplates uuid="7b5bacf0-a760-460c-b050-f40c38ac9b23">
-    <name>Ping</name>
+    <name>ping</name>
     <synonym>
       <key>ru</key>
-      <value>Ping</value>
+      <value>ping</value>
     </synonym>
     <template>/ping</template>
     <methods uuid="741d9371-2d19-40cb-a1ec-d08415289026">
@@ -25,10 +25,10 @@
     </methods>
   </urlTemplates>
   <urlTemplates uuid="bf5cb9ae-7a57-4ca7-b3d5-975f84d6c0ab">
-    <name>Send</name>
+    <name>send</name>
     <synonym>
       <key>ru</key>
-      <value>Send</value>
+      <value>send</value>
     </synonym>
     <template>/send</template>
     <methods uuid="8f4d469d-6c8d-4044-a4de-200b684c1c74">
